@@ -2,18 +2,20 @@
 <br>
 Project done as a part of an experimental fast track "boost" program at 42 silicon valley.
 <br><br>
-### List of funtions contained in the library
+<h3> List of funtions contained in the library </h3>
 <br>
-* memset
-* strchr
-* strcpy 
-* strlen 
-* tolower 
-* toupper
-* isdigit
-* strcmp 
-* strdup 
-* strncpy 
-<br>
-In order to create a library just use make file(in shell: make or make all)
-You can also test custom functions against system functions with main located in test.c (in shell: gcc -Wall -Werror -Wextra -I libft.h test.c libft.a)
+<ul>
+<li> memset </li>
+<li> strchr </li>
+<li> strcpy </li>
+<li> strlen </li>
+<li> tolower </li>
+<li> toupper </li>
+<li> isdigit </li>
+<li> strcmp </li> 
+<li> strdup </li>
+<li> strncpy </li>
+ </ul>
+<br><br>
+<p>In order to create a library just use make file<br>$shell: make or make all <br><br>
+You can also test custom functions against system functions with main located in test.c: <br>$shell: gcc -Wall -Werror -Wextra -I libft.h test.c libft.a </p>
